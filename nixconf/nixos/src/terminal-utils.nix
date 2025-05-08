@@ -1,0 +1,76 @@
+{ pkgs, ... }:
+
+{
+  environment.systemPackages = with pkgs; [
+    file
+    upx
+    lazygit
+    delta
+    license-generator
+    git-ignore
+    gitleaks
+    git-secrets
+    pass-git-helper
+    just
+    xh
+    process-compose
+    # mcfly # terminal history
+    zellij
+    progress
+    noti
+    topgrade
+    ripgrep
+    rewrk
+    rsync
+    wrk2
+    procs
+    tealdeer
+    # skim #fzf better alternative in rust
+    monolith
+    aria
+    # macchina #neofetch alternative in rust
+    sd
+    ouch
+    duf
+    du-dust
+    fd
+    jq
+    gh
+    bc
+    trash-cli
+    zoxide
+    tokei
+    fzf
+    bat
+    hexyl
+    mdcat
+    pandoc
+    lsd
+    lsof
+    gping
+    viu
+    tre-command
+    yazi
+    chafa
+    axel
+    coreutils
+    curl
+    wget
+    cmatrix
+    pipes-rs
+    rsclock
+    cava
+    figlet
+    mpv
+    tesseract
+    tesseract3
+    tesseract4
+    meson
+    cmake
+    tinyxml-2
+    dart-sass
+    metar
+    gowall
+    overskride
+  ];
+}
